@@ -7,6 +7,7 @@ import { FaHandPeace } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import Button from "react-bootstrap/Button";
 import Partialcard from "../Projects/Partialcard";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -81,7 +82,7 @@ const Home = () => {
               with. Im mainly working with Node and ReactJS for the frontend but
               i also enjoy to pick Angular or Vue for the frontend depending on
               the task. Continue reading{" "}
-              <a className="Link-title" href="/about">
+              <a className="Link-title" href="#/about">
                 about me
               </a>
             </p>
@@ -154,10 +155,9 @@ const Home = () => {
             </Container>
           </div>
           <div style={{ textAlign: "center" }}>
-            <Button className="Button" variant="primary" size="sm">
-              Show more
-              <a href="/projects">
-                {" "}
+            <Button variant="primary" size="sm">
+              <a href="#/projects" className="Button">
+                Show more
                 <AiOutlinePlusCircle />
               </a>
             </Button>
