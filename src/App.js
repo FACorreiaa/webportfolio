@@ -9,7 +9,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter basename="/">
         <div className="App-header">
           <Navigation />
         </div>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/resume" exact component={Resume} />
           <Route exact path="/" component={Home} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
