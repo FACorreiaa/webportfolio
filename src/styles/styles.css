@@ -1,0 +1,57 @@
+.Container-styles {
+  color: #ffffff;
+  background-color: rgb(60, 64, 67);
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  height: -webkit-fill-available;
+}
+
+.Container-styles-About {
+  color: #ffffff;
+  background-color: rgb(60, 64, 67);
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  height: -webkit-fill-available;
+  position: absolute;
+}
+
+.Button {
+  background-color: rgb(60, 64, 67);
+  color: #8b87ea;
+  border: none;
+}
+
+.Navbar-styles {
+  background-color: rgb(53, 54, 58);
+  color: rgb(232, 234, 237);
+}
+
+.Topic-title {
+  color: #8b87ea;
+  display: inline-flex;
+}
+
+.Link-title {
+  color: #8b87ea;
+}
+
+.Story {
+  margin: 2em;
+}
+
+.Card-styles {
+  background-color: rgb(53, 54, 58);
+  color: rgb(232, 234, 237);
+  width: 22em;
+  margin-bottom: 10px;
+}
+
+.Partial-Card-styles {
+  background-color: rgb(53, 54, 58);
+  color: rgb(232, 234, 237);
+  margin-bottom: 10px;
+}
+
+.Badge {
+  background-color: rgb(53, 54, 58);
+  color: rgb(232, 234, 237);
+  border: 1px solid rgb(60, 64, 67);
+}

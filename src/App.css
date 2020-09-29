@@ -1,0 +1,16 @@
+.App {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  background-color: rgb(53, 54, 58);
+  color: rgb(232, 234, 237);
+}
+
+.App-title {
+  text-align: right;
+  color: white;
+  font-size: xx-large;
+  font-family: "roboto";
+}
